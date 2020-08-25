@@ -17,7 +17,8 @@ This project was a 48 hrs Hackathon, pair-programming activity which I carried o
   - [Naviation Bar](#naviation-bar)
   - [Artist](#artist)
 - [Challenges and Key Learnings](#challenges-and-key-learnings)
-- [Conclusions](#conclusions)
+- [Conclusions and Achievements](#conclusions-and-achievements)
+- [Bugs](#bugs)
 
 ## Brief
 
@@ -184,6 +185,10 @@ Link - [Referenced Code](https://github.com/RichardBekoe/Muziac/blob/master/src/
 Navigating the API to extract the information that we wanted, at times was challenging. A reason for the was the nested data structures by which the information was organised. It helped to use JSON formatting tools to clearly understand how the data had been constructed. In addition, the API had many different endpoints even for seemingly related data. This therefore required us to make multiple API calls to obtain the data that we required.
 
 
-## Conclusions
+## Conclusions and Achievements
 
 Overall I am very pleased with the outcome of our project work, of which was completed in under 48 hrs. I am glad that we implemented the functionality of search capability on every page and added short sample music clips. I gained a better understanding of React Router Dom `withRouter` and working with APIs to display relevant information, hence I have attained valuable skills.
+
+## Bugs
+
+When the page is resized, some of the images and component features are disfigured, further styling based on the  page dimensions is required to further improve on the current implementation.
