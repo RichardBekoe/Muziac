@@ -86,7 +86,7 @@ Link - [Referenced Code](https://github.com/RichardBekoe/Muziac/blob/master/src/
 
 For the NarBar we implemented code that allowed people to search for artist. We added a template literal to the search endpoint URL. Therefore, the text which the user wrote is added to the search query. 
 
-In our function getFetch a fetch is made to the API. The search box is then reset to empty after the function is run. The use of withRouter allowed the information to be returned and made available to different components as props. Depending on the current URL the different URL paths are called, although they map to the same [Results Component](https://github.com/RichardBekoe/Muziac/blob/master/src/Results.js).
+In our function getFetch a fetch is made to the API. The search box is then reset to empty after the function is run. The use of `withRouter` allowed the information to be returned and made available to different components as props. Depending on the current URL the different URL paths are called, although they map to the same [Results Component](https://github.com/RichardBekoe/Muziac/blob/master/src/Results.js).
 
 
 ``` javascript
